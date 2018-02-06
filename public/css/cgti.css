@@ -1,0 +1,68 @@
+#barra-titulo {
+    color: #FFF;
+    background-color: #0A5517;
+    font-weight: bold;
+    background: -webkit-radial-gradient(ellipse at center center , #19882C 1%, #025310 100%); /* For Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(ellipse at center center , #19882C 1%, #025310 100%); /* For Opera 11.1 to 12.0 */
+    background: -moz-radial-gradient(ellipse at center center , #19882C 1%, #025310 100%); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(ellipse at center center , #19882C 1%, #025310 100%); /* For Firefox 3.6 to 15 */
+}
+#barra-titulo img{
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 0.1em;
+}
+#barra-titulo h1,h2, h3, h4, h5, h6 {
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+}
+#barra-opcoes {
+    color: #FFF;
+    background-color: #00420C;
+    min-height: 2em;
+}
+footer{
+    
+    background-color: #00420C;
+}
+footer a{
+    font-size: 2em;
+    color: #FFF;
+}
+.bg-white{
+    text-align: center;
+    font-weight: bold;
+    background-color: #FFF;
+}
+
+#img-noticia{
+    border-right: 1px solid lightgray;
+}
+#txt-noticia{
+   padding-left: 20px;
+}
+
+.img-100{
+    display: block;
+    max-width: 100%;
+    max-height: 125px;
+    margin: 0 auto;
+}
+
+.titulo-noticia {
+    max-height: 3em;
+    overflow: hidden;
+}
+.subtitulo-noticia {
+    max-height: 3em;
+    overflow: hidden;
+}
+.link-noticia {
+    max-height: 2em;
+    overflow: hidden;
+}
+.data-noticia{
+    height: 1.4em;
+    font-size: 0.8em;
+    font-weight: bold;
+}
