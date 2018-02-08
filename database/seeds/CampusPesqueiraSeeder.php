@@ -34,7 +34,7 @@ class CampusPesqueiraSeeder extends Seeder
         /* Criação de papéis iniciais */
         Role::create([
             'name' => 'TIC',
-            'description' => 'Perfil para profissionais de Tecnologia da Informação e comunicação.',
+            'description' => 'Perfil para profissionais de Tecnologia da Informação e Comunicação.',
         ]);
         Role::create([
             'name' => 'ASCOM',
@@ -49,8 +49,8 @@ class CampusPesqueiraSeeder extends Seeder
             'description' => 'Perfil para profissionais da Coordenação de Turnos.',
         ]);
         Role::create([
-            'name' => 'CTUR',
-            'description' => 'Perfil para profissionais da Coordenação de Turnos.',
+            'name' => 'TRANPORTES',
+            'description' => 'Perfil para profissionais da Coordenação de Transportes.',
         ]);
 
         /* Relacionar papéis aos usuários */
